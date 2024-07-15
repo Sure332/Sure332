@@ -1,0 +1,58 @@
+import pandas as pd
+
+#Replace 'employee_burnout_analysis-Al.xlsx' with the path to your Excel file file path 'employee_burnout_analysis-Al.xlsx'
+
+#Load the Excel file
+
+dfpd.read_excel(file_path)
+
+#Display the first few rows of the datafrase
+
+print(df.head())
+
+#Extract specific columns (if needed)
+
+employee_id=df['Employee ID']
+
+date_of_joining df['Date of Joining']
+
+gender df['Gender']
+
+company_type = df['Company Type']
+
+wfh_setup_available = df['WFH Setup Available'] designation df['Designation']
+
+resource_allocation df['Resource Allocation']
+
+mental_fatigue_score df['Mental Fatigue Score"]
+
+burn rate df['Burn Rate']
+
+Print the extracted columns
+
+print("Employee ID:", employee_id.head()) print("Date of Joining:", date_of_joining.head())
+
+print("Gender:", gender.head())
+
+print("Company Type:", company_type.head())
+
+print("WFH Setup Available:", wfh_setup_available.head())
+
+print("Designation:", designation.head())
+
+print("Resource Allocation:", resource_allocation.head())
+
+print("Mental Fatigue Score:", mental_fatigue_score.head())
+
+print("Burn Rate:", burn_rate.head())
+# Filter data for employees with a high burn rate high_burn_rate df [df['Burn Rate] > 0.7]
+
+print(high burn_rate)
+data.column.tolist() 
+data.nuniqe() 
+data.info() 
+data.isnull.sum() 
+sns.pairplot(data) 
+plt.show () 
+data.shape
+data. dtypes
